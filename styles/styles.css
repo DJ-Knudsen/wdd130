@@ -1,0 +1,14 @@
+body {
+    background: url(../images/background.jpg);
+}
+
+#wrapper {
+    border: 3px solid #000D27; 
+    border-radius: 5%;
+    width: 1024px;
+    margin: 40px auto;
+    box-shadow: 10px 10px #A5ADAF;
+    background: #FEFEFE;
+}
+
+/*Colors and px liable to change
