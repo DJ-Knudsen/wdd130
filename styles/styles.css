@@ -121,3 +121,49 @@ footer {
     font-size: 0.9rem;
     letter-spacing: 0.1em;
 }
+
+.ice-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    background-color: #BBE9F4;
+}
+
+.ice-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    background-color: #FEFEFE;
+    border: 2px solid #000D27;
+    border-left: 5px solid #6EAFCD;
+    border-radius: 8px;
+    padding: 15px 18px;
+    transition: box-shadow 0.2s, transform 0.2s, border-left-color 0.2s;
+}
+
+.ice-card:hover {
+    box-shadow: 4px 4px 12px rgba(0, 13, 39, 0.3);
+    transform: translateY(-3px);
+    border-left-color: #82DDF4;
+}
+
+.ice-card-title {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.1rem;
+    color: #000D27;
+    text-decoration: none;
+}
+
+.ice-card-desc {
+    font-family: 'IM Fell English', serif;
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.ice-card-title:hover {
+    color: #6EAFCD;
+    text-decoration: underline;
+}
